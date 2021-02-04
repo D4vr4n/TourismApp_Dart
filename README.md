@@ -1,6 +1,6 @@
 # tourism_app
 
-A new Flutter project tha contains ```ListView``` in the home page and details page 
+A new Flutter project that contains ```ListView``` in the home page and details page 
 
 ## Getting Started
 
