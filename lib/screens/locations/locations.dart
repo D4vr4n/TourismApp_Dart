@@ -9,7 +9,8 @@ class Locations extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Locations'),
+        backgroundColor: Colors.pink,
+        title: Text('Locations', style: TextStyle(color: Colors.black)),
       ),
       body: ListView(
         children: locations

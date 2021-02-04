@@ -12,7 +12,10 @@ class LocationDetail extends StatelessWidget {
   Widget build(BuildContext context) {
     final location = Location.fetchByID(_locationID);
     return Scaffold(
-        appBar: AppBar(title: Text(location.name)),
+        appBar: AppBar(
+          backgroundColor: Colors.pink,
+          title: Text((location.name), style: TextStyle(color: Colors.black)),
+        ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.stretch,
